@@ -8,4 +8,5 @@ end
 
 def assign_rooms(speakers)
   new_array []
-  speakers.each_with_index do (speakers, index)
+  speakers.each_with_index do (speakers, i)
+  
