@@ -15,6 +15,6 @@ new_array
 end
 
 def printer(attendees)
-  batch_badge_creator(attendees) { |name| puts name}
-  assign_rooms(attendees) { |room| puts room }
+  batch_badge_creator(attendees).each { |name| puts name}
+  assign_rooms(attendees).each { |room| puts room }
 end
